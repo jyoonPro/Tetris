@@ -5,13 +5,7 @@
 //
 
 #include "../constant.h"
-#include "Mino_I.h"
-#include "Mino_O.h"
-#include "Mino_T.h"
-#include "Mino_L.h"
-#include "Mino_J.h"
-#include "Mino_S.h"
-#include "Mino_Z.h"
+#include "_all.h"
 
 
 // Initial Position Data
