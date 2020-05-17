@@ -34,7 +34,7 @@ private:
     Tetrimino* mino_shadow;
 
     std::thread async_drop;
-    bool reset_drop_timer{};
+    bool reset_drop_timer;
 
     void dropPiece();
     void clearLines();
@@ -42,8 +42,6 @@ private:
     void animateGameOver();
     void project(Tetrimino* t);
     void newShadow();
-
-protected:
     void slice();
 
 public:
